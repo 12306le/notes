@@ -142,7 +142,6 @@ gh run watch <run-id> --exit-status
 
 - `node_modules/`（已在 `.gitignore`）
 - `.vitepress/dist/`（已在 `.gitignore`）
-- `.obsidian/`（已在 `.gitignore`，作者用 Obsidian 看 markdown）
 
 ## 验证清单（push 前过一遍）
 
