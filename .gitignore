@@ -1,0 +1,17 @@
+# Logs
+*.log
+npm-debug.log*
+
+# Editors
+.vscode/
+.idea/
+.obsidian/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VitePress
+node_modules/
+.vitepress/cache/
+.vitepress/dist/

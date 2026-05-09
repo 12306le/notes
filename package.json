@@ -1,0 +1,14 @@
+{
+  "name": "my-docs",
+  "version": "0.1.0",
+  "description": "我的技术笔记 - 代码小白的踩坑笔记",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.5.0"
+  }
+}
