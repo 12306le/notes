@@ -11,8 +11,8 @@ export default defineConfig({
   lastUpdated: true,
   cleanUrls: true,
 
-  // 屏蔽辅助文件不被当作页面（README、Obsidian 用的 _ 开头文件）
-  srcExclude: ['**/README.md', '**/_*.md'],
+  // 屏蔽辅助文件不被当作页面（README、CLAUDE.md、Obsidian 用的 _ 开头文件）
+  srcExclude: ['**/README.md', '**/CLAUDE.md', '**/_*.md'],
 
   themeConfig: {
     siteTitle: '我的技术笔记',
