@@ -4,20 +4,30 @@ layout: home
 hero:
   name: "我的技术笔记"
   text: "一个代码小白的踩坑笔记"
-  tagline: Claude Code · Scoop · tmux 等工具的中文入门教程
+  tagline: Codex · Claude Code · VPS · 1Panel · OpenList 等工具的中文入门教程
   actions:
     - theme: brand
       text: 开始阅读
-      link: /claude-code/basic
+      link: /codex/third-party-api
     - theme: alt
       text: 关于本站
       link: #关于本站
 
 features:
+  - icon: 🧠
+    title: Codex
+    details: OpenAI 的本地编程助手。第三方 API 接入、模型 provider 配置、常见报错排查。
+    link: /codex/third-party-api
+    linkText: 进入教程
   - icon: 🤖
     title: Claude Code
     details: Anthropic 官方出品的命令行 AI 编程助手。安装、配置、第三方 API 接入。
     link: /claude-code/basic
+    linkText: 进入教程
+  - icon: 🧰
+    title: 服务器
+    details: Ubuntu VPS、1Panel、OpenList 常用命令。忘记账号密码、重启服务、查端口时快速复制。
+    link: /server/ubuntu-vps
     linkText: 进入教程
   - icon: 📦
     title: Scoop

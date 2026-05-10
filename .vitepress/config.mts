@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   lang: 'zh-CN',
   title: '我的技术笔记',
-  description: '一个代码小白的踩坑笔记和速查手册：Claude Code、Scoop、tmux 等工具的中文入门教程',
+  description: '一个代码小白的踩坑笔记和速查手册：Codex、Claude Code、VPS、1Panel、OpenList、Scoop、tmux 等工具的中文入门教程',
 
   // 部署到 GitHub Pages：仓库名是 notes，所以 base 设为 /notes/
   base: '/notes/',
@@ -23,10 +23,24 @@ export default defineConfig({
         text: '教程',
         items: [
           {
+            text: 'Codex',
+            items: [
+              { text: '第三方 API 配置', link: '/codex/third-party-api' }
+            ]
+          },
+          {
             text: 'Claude Code',
             items: [
               { text: '基本操作', link: '/claude-code/basic' },
               { text: '第三方 API 配置', link: '/claude-code/third-party-api' }
+            ]
+          },
+          {
+            text: '服务器',
+            items: [
+              { text: 'Ubuntu VPS 常用命令', link: '/server/ubuntu-vps' },
+              { text: '1Panel 常用命令', link: '/server/1panel' },
+              { text: 'OpenList 常用命令', link: '/server/openlist' }
             ]
           },
           {
@@ -49,12 +63,30 @@ export default defineConfig({
     ],
 
     sidebar: {
+      '/codex/': [
+        {
+          text: 'Codex',
+          items: [
+            { text: '第三方 API 配置', link: '/codex/third-party-api' }
+          ]
+        }
+      ],
       '/claude-code/': [
         {
           text: 'Claude Code',
           items: [
             { text: '基本操作', link: '/claude-code/basic' },
             { text: '第三方 API 配置', link: '/claude-code/third-party-api' }
+          ]
+        }
+      ],
+      '/server/': [
+        {
+          text: '服务器',
+          items: [
+            { text: 'Ubuntu VPS 常用命令', link: '/server/ubuntu-vps' },
+            { text: '1Panel 常用命令', link: '/server/1panel' },
+            { text: 'OpenList 常用命令', link: '/server/openlist' }
           ]
         }
       ],
